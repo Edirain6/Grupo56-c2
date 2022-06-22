@@ -1,0 +1,30 @@
+package com.mycompany.petproject.g56g;
+
+/**
+ *
+ * @author vansn
+ */
+public class PetProjectG56G {
+    
+    //1. Definir los atributos de la clase
+    private String petName;
+    private char petsex;
+    private int age;
+    private String healthStatus;
+    private String breed;
+    private boolean pedigree;
+    private String color;
+    private String height;
+    
+    //2. Creamos un método que imprime los valores de los atributos
+    
+    public static void showPetInformation(){
+        //Atajo: sout + tab
+        System.out.println("Estoy dentro del método");
+    }   
+    
+    
+    public static void main(String[] args) {
+        showPetInformation();
+    }
+}
