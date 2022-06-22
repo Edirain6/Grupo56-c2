@@ -1,0 +1,31 @@
+package com.mycompany.petproject.g56g;
+
+/**
+ *
+ * @author vansn
+ */
+public class PetProjectG56G {
+    
+    //1. Definir los atributos de la clase
+    private static String petName = "Lulu";
+    private static char petsex = 'F';
+    private static int age = 1;
+    private static String healthStatus = "Todo ok";
+    private static String breed = "Atigrado";
+    private static boolean pedigree = true;
+    private static String color = "Tigre";
+    private static String height = "Raza pequeña";
+    
+    //2. Creamos un método que imprime los valores de los atributos
+    
+    public static void showPetInformation(){
+        //Atajo: sout + tab
+        System.out.println(petName + " es un " + breed + " de " + height + 
+                " de color " + color + ". Tiene " + age + " años y su estado de salud es: " + healthStatus );
+    }   
+    
+    
+    public static void main(String[] args) {
+        showPetInformation();
+    }
+}
